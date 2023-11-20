@@ -6,11 +6,11 @@ import (
 )
 
 func main() {
-	var nNumber float64
 	var aNumber float64
+	var nNumber float64
 
-	fmt.Scan(&nNumber)
 	fmt.Scan(&aNumber)
+	fmt.Scan(&nNumber)
 
 	result := math.Pow(aNumber, nNumber)
 
