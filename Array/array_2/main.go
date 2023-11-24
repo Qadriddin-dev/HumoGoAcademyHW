@@ -16,8 +16,8 @@ func main() {
 		a[i], a[n-i-1] = a[n-i-1], a[i]
 	}
 
-	for _, num := range a {
-		fmt.Print(num, " ")
+	for i := 0; i < n; i++ {
+		fmt.Print(a[i], " ")
 	}
 	fmt.Println()
 }
