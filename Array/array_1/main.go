@@ -18,6 +18,9 @@ func main() {
 		if a[i] < 0 && a[i-1] < 0 {
 			foundNegativePair = true
 			break
+		} else if a[i] > 0 && a[i-1] > 0 {
+			foundNegativePair = true
+			break
 		}
 	}
 
